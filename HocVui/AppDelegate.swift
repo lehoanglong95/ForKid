@@ -41,6 +41,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+//    internal var shouldRotate = false
+//    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> UIInterfaceOrientationMask {
+//        if shouldRotate {
+//            return .AllButUpsideDown
+//        }
+//        else {
+//            return .Portrait
+//        }
+//    }
+    
+//    var blockRotation: Bool = true
+//    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> UIInterfaceOrientationMask {
+//        
+//        
+////        if isIphone {
+////            return UIInterfaceOrientationMask.Portrait
+////        }
+//        if (self.blockRotation) {
+//            return UIInterfaceOrientationMask.Portrait
+//        } else {
+//            return UIInterfaceOrientationMask.Landscape
+//        }
+//    }
+//    
+    
 }
 
